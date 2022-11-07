@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Services\ArticleService;
 use App\Models\Article;
 use App\Http\Requests\Article\StoreRequest;
+use App\Http\Requests\Article\UpdateRequest;
 use Str;
 
 class ArticleController extends Controller
@@ -71,10 +72,10 @@ class ArticleController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(int $id)
+    public function edit(string $slug)
     {
         return view('article.edit',[
-            'article' => $this->article->getArticleById($id)
+            'article' => $this->article->getArticleBySlug($slug)
         ]);
     }
 
@@ -85,9 +86,13 @@ class ArticleController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Article $article, UpdateRequest $request)
     {
-        //
+        $article->update($request->validated());
+        //TODO: add image
+        // $article = $this->article->create($request->validated());
+
+        return redirect(route('article.show',['article' => $article]));
     }
 
     /**
@@ -96,8 +101,10 @@ class ArticleController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Article $article, DestroyRequest $request)
     {
-        //
+        $article->delete();
+
+        return redirect(route('article.index'));
     }
 }

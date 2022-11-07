@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('title_en');
             $table->string('title_pl');
             $table->string('title_ru');
-            $table->string('slug');
+            $table->string('slug')->unique();
             $table->string('img')->nullable();
             $table->text('body_en');
             $table->text('body_pl');

@@ -1,7 +1,7 @@
 @extends ('layouts.layout')
 
 @section ('head')
-    
+
 @endsection
 
 @section ('content')
@@ -19,6 +19,15 @@
             </h1>
         </div>
     </div>
+    @if(Auth::check())
+    <div class="row">
+        <div class="col">
+            <a href="{{ route('article.edit', ['article' => $article->slug]) }}" class="btn btn-danger" type="button">
+                {{ __('messages.edit') }}
+            </a>
+        </div>
+    </div>
+    @endif
     <div class="row">
         <div class="col">
             @if(App::isLocale('ru'))

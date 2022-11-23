@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Auth::routes(['register' => false, 'reset' => false, 'verify' => false]);
+// Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('locale/{locale}', function ($locale) {

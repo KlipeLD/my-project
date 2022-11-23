@@ -145,3 +145,15 @@ body {
 .articleTitle:hover {
    overflow-y: auto;
 }
+.imgArticleInShow {
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
+}
+.imgArticleInEdit {
+    max-height: 200px;
+    object-fit: contain;
+}
+.divArticleEdit {
+    text-align: left;
+}

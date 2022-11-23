@@ -29,8 +29,9 @@ class UpdateRequest extends FormRequest
             'body_en' => 'required',
             'title_pl' => 'required|max:255',
             'body_pl' => 'required',
-            'title_ru' => 'required||max:255',
+            'title_ru' => 'required|max:255',
             'body_ru' => 'required',
+            'img' => 'image'
         ];
     }
 

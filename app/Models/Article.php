@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Str;
+use App\Http\Controllers\ImageController;
 
 class Article extends Model
 {
@@ -17,7 +18,8 @@ class Article extends Model
         'title_pl',
         'body_pl',
         'title_ru',
-        'body_ru'
+        'body_ru',
+        'img'
     ];
 
     public static function boot()

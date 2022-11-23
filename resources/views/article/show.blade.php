@@ -29,15 +29,29 @@
     </div>
     @endif
     <div class="row">
-        <div class="col">
-            @if(App::isLocale('ru'))
-                {!! $article->body_ru !!}
-            @elseif(App::isLocale('en'))
-                {!! $article->body_en !!}
-            @else
-                {!! $article->body_pl !!}
-            @endif
+        <div class="col-md-8 mt-3">
+            <div class="row">
+                <div class="col">
+                    @if(!empty($article->img))
+                        <img data-bs-idik="{{ $article->id }}" class="imgArticleInShow" src="{{ asset('/img/articles/'.$article->img) }}" onerror="this.src='/img/noimg3.jpg';">
+                    @else
+                        <img class="imgArticleInShow" src="{{ asset('/img/noimg3.jpg') }}">
+                    @endif
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    @if(App::isLocale('ru'))
+                        {!! $article->body_ru !!}
+                    @elseif(App::isLocale('en'))
+                        {!! $article->body_en !!}
+                    @else
+                        {!! $article->body_pl !!}
+                    @endif
+                </div>
+            </div>
         </div>
     </div>
+    
 </div>
 @endsection

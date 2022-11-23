@@ -21,7 +21,7 @@
             <div class="articleInBlog">
                 <a target="_blank" class="articleLink" href="{{ route('article.show',['article' => $article->slug]) }}">
                     @if(!empty($article->img))
-                        <img data-bs-idik="{{ $article->id }}" class="imgArticle" src="{{ asset('/img/'.$article->img) }}" onerror="this.src='/img/products/noimg3.jpg';">
+                        <img data-bs-idik="{{ $article->id }}" class="imgArticle" src="{{ asset('/img/articles/'.$article->img) }}" onerror="this.src='/img/noimg3.jpg';">
                     @else
                         <img class="imgArticle" src="{{ asset('/img/noimg3.jpg') }}">
                     @endif

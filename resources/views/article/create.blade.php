@@ -16,7 +16,7 @@
                                     @if(Session::has('textOnTop'))
                                         {!! Session::get('textOnTop') !!}
                                     @endif
-                                    <div class="card">
+                                    <div class="card mb-5">
                                         <div class="card-header">{{ __('messages.nav_blog') . ' - ' . __('messages.creating') }}</div>
 
                                         <div class="card-body">
@@ -124,6 +124,21 @@
                                                         >{!! htmlspecialchars(old('body_ru')) !!}</textarea>
 
                                                         @error('body_ru')
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                        @enderror
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group row mt-3">
+                                                    <label for="img"
+                                                           class="col-md-3 col-form-label text-md-right">{{ __('messages.image') }}</label>
+                                                    
+                                                    <div class="col-md-8">
+                                                        <input type="file" name="img" accept="image/*" class=" form-control @error('img') is-invalid @enderror" value="{{ old('img') }}">
+                                                        
+                                                        @error('img')
                                                         <span class="invalid-feedback" role="alert">
                                                             <strong>{{ $message }}</strong>
                                                         </span>

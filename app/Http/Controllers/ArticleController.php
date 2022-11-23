@@ -48,9 +48,13 @@ class ArticleController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(StoreRequest $request)
-    {
-        //TODO: add image
-        $article = $this->article->create($request->validated());
+    {   
+        $data = $request->validated();
+        if($request->hasFile('img'))
+        {
+            $data['img'] = $this->articleService->uploadedImage($request->file('img'));
+        }
+        $article = $this->article->create($data);
 
         return redirect(route('article.index',['article' => $article->id]));
     }
@@ -88,10 +92,14 @@ class ArticleController extends Controller
      */
     public function update(Article $article, UpdateRequest $request)
     {
-        $article->update($request->validated());
-        //TODO: add image
-        // $article = $this->article->create($request->validated());
-
+        $article->update(($request->except('img')));
+        if($request->hasFile('img'))
+        {
+            $this->articleService->deletedImage($article->img);
+            $article->img = $this->articleService->uploadedImage($request->file('img'));
+            $article->save();
+        }
+      
         return redirect(route('article.show',['article' => $article]));
     }
 
@@ -103,6 +111,7 @@ class ArticleController extends Controller
      */
     public function destroy(Article $article, DestroyRequest $request)
     {
+        $this->articleService->deletedImage($article->img);
         $article->delete();
 
         return redirect(route('article.index'));

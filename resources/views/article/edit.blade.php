@@ -8,7 +8,7 @@
 <div class="container-fluid">
         <div class="marginTopFromMenu">
             <div class="row justify-content-center">
-                <div class="col-12 mt-5 ">
+                <div class="col-12">
                     <div class="container mt-3">
                         <div class="container-fluid">
                             <div class="row">
@@ -16,7 +16,7 @@
                                     @if(Session::has('textOnTop'))
                                         {!! Session::get('textOnTop') !!}
                                     @endif
-                                    <div class="card">
+                                    <div class="card mb-5">
                                         <div class="card-header">{{ __('messages.nav_blog') . ' - ' . __('messages.creating') }}</div>
 
                                         <div class="card-body">
@@ -124,6 +124,33 @@
                                                         >{!! htmlspecialchars($article->body_ru) !!}</textarea>
 
                                                         @error('body_ru')
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                        @enderror
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="row mt-3">
+                                                    <div class="col-md-3">
+                                                    </div>
+                                                    <div class="col-md-8 divArticleEdit">
+                                                        @if(!empty($article->img))
+                                                            <img data-bs-idik="{{ $article->id }}" class="imgArticleInEdit" src="{{ asset('/img/articles/'.$article->img) }}" onerror="this.src='/img/noimg3.jpg';">
+                                                        @else
+                                                            <img class="imgArticleInEdit" src="{{ asset('/img/noimg3.jpg') }}">
+                                                        @endif
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group row mt-3">
+                                                    <label for="img"
+                                                           class="col-md-3 col-form-label text-md-right">{{ __('messages.image') }}</label>
+                                                    
+                                                    <div class="col-md-8">
+                                                        <input type="file" name="img" accept="image/*" class=" form-control @error('img') is-invalid @enderror" value="{{ old('img') }}">
+                                                        
+                                                        @error('img')
                                                         <span class="invalid-feedback" role="alert">
                                                             <strong>{{ $message }}</strong>
                                                         </span>

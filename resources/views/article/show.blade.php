@@ -26,6 +26,16 @@
                 {{ __('messages.edit') }}
             </a>
         </div>
+        <div class="col">
+            <form action="{{ route('article.destroy', ['article' => $article->slug]) }}" method="post">
+                <input name="_method" type="hidden" value="DELETE">
+                @csrf
+
+                <button class="btn btn-danger" type="submit">
+                    {{ __('messages.delete') }}
+                </button>
+            </form>
+        </div>
     </div>
     @endif
     <div class="row">

@@ -132,7 +132,6 @@ body {
     object-fit: contain;
     border-radius: 15px 15px 0px 0px;
 }
-
 .articleTitle {
     height: 36%;
     text-overflow: ellipsis;

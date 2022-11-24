@@ -7,6 +7,7 @@ use App\Services\ArticleService;
 use App\Models\Article;
 use App\Http\Requests\Article\StoreRequest;
 use App\Http\Requests\Article\UpdateRequest;
+use App\Http\Requests\Article\DestroyRequest;
 use Str;
 
 class ArticleController extends Controller

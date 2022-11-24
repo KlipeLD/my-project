@@ -17,7 +17,8 @@ class Article extends Model
         'title_pl',
         'body_pl',
         'title_ru',
-        'body_ru'
+        'body_ru',
+        'img'
     ];
 
     public static function boot()

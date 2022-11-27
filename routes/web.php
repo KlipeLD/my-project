@@ -48,6 +48,7 @@ Route::group(
     Route::post( '/contact', 'App\Http\Controllers\ContactController@store')->name('contact.store');
 
     Route::resource('article', 'App\Http\Controllers\ArticleController');
+    Route::resource('service', 'App\Http\Controllers\ServiceController')->except(['show']);;
 
     Route::get('/weather', 'App\Http\Controllers\WeatherController@show')->name('weather.show');
 });

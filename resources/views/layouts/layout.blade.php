@@ -51,6 +51,9 @@
                     <li class="nav-item">
                         <a class="nav-link menuLink" href="{{ route('article.index') }}">{{ __('messages.nav_blog') }}</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link menuLink" href="{{ route('service.index') }}">{{ __('messages.nav_services') }}</a>
+                    </li>
                     <div class="dropdown menuLink">
                         <button class="btn btn-outline-danger dropdown-toggle langdrop " type="button"
                                 id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">

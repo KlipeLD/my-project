@@ -70,6 +70,9 @@ return [
     'body' => 'Содержание',
     'image' => 'Изображение',
 
+    /* Services form */
+    'nav_services' => 'Сервисы',
+    'url' => 'Ссылка',
 
     /* Elements */
     'create' => 'Создать',

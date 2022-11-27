@@ -59,11 +59,15 @@ Dziękuję!</div>',
     'contact_recaptcha_text' => '',
     'recaptcha_fail' => 'Błędnie wypełnione pole reCAPTCHA',
 
-    /*Blog form*/
+    /* Blog form*/
     'nav_blog' => 'Blog',
     'title'=> 'Tytuł',
     'body' => 'Treść',
     'image' => 'Zdjęcie',
+
+    /* Services form */
+    'nav_services' => 'Serwisy',
+    'url' => 'Link',
 
     /* Elements */
     'create' => 'Stwórz',

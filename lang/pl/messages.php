@@ -73,4 +73,9 @@ Dziękuję!</div>',
     'edit' => 'Edituj',
     'editing' => 'Editowanie',
     'delete' => 'Kasuj',
+
+    /* Weather */
+    'weather_header' => 'Pogoda',
+    'weather_info' => 'Pogoda teraz:',
+    'weather_img_alt' => 'Iconka pogody',
 ];

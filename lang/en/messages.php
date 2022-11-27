@@ -72,4 +72,10 @@ Thanks!</div>',
     'edit' => 'Edit',
     'editing' => 'Editing',
     'delete' => 'Delete',
+
+    /* Weather */
+    'weather_header' => 'Weather',
+    'weather_info' => 'Weather now:',
+    'weather_img_alt' => 'weather icon',
+
 ];

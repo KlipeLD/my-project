@@ -14,7 +14,6 @@ class ArticleController extends Controller
 {
     protected $article;
     protected $articleService;
-    //TODO : ArticleService
 
     public function __construct(Article $article, ArticleService $articleService)
     {
@@ -26,7 +25,7 @@ class ArticleController extends Controller
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
-     */
+    */
     public function index()
     {
         return view('article.index', ['articles' => $this->article->getArticles()]);

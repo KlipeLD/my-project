@@ -79,4 +79,10 @@ return [
     'edit' => 'Изменить',
     'editing' => 'Изменение',
     'delete' => 'Удалить',
+
+    /* Weather */
+    'weather_header' => 'Погода',
+    'weather_info' => 'Погода сейчас:',
+    'weather_img_alt' => 'Иконка погоды',
+
 ];

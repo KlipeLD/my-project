@@ -156,3 +156,10 @@ body {
 .divArticleEdit {
     text-align: left;
 }
+.code
+{
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #000;
+}

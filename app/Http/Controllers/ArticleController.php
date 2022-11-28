@@ -44,7 +44,7 @@ class ArticleController extends Controller
 
     public function show(string $slug)
     {
-        return view('article.show',['article' => $this->article->getArticleBySlug($slug)]);
+        return view('article.show',['article' => $this->article->getArticleBySlugWithDecode($slug)]);
     }
 
     public function edit(string $slug)

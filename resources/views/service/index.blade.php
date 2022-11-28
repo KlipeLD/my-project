@@ -1,7 +1,9 @@
 @extends ('layouts.layout')
 
 @section ('head')
-    
+    <title>{{ __('messages.nav_services') }} - {{ __('messages.page_name') }}</title>
+    <meta name="description" content="{{ __('messages.nav_services') }} - {{ __('messages.page_name') }}"/>
+    <link rel="canonical" href="{{ route('service.index') }}">
 @endsection
 
 @section ('content')

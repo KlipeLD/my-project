@@ -15,12 +15,6 @@ class WeatherController extends Controller
         $this->weatherService = $weatherService;
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function show(int $id = 0)
     {   
         return view('weather.show',[ 'weather' => $this->weatherService->getWeather($id)]);

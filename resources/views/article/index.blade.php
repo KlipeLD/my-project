@@ -1,11 +1,13 @@
 @extends ('layouts.layout')
 
 @section ('head')
-    
+    <title>{{ __('messages.nav_blog') }} - {{ __('messages.page_name') }}</title>
+    <meta name="description" content="{{ __('messages.nav_blog') }} - {{ __('messages.page_name') }}"/>
+    <link rel="canonical" href="{{ route('article.index') }}">
 @endsection
 
 @section ('content')
-<div class="container mt-5">
+<div class="container mt-5 mb-5">
     @if(Auth::check())
         <div class="row mb-5">
             <div class="col">
@@ -38,7 +40,7 @@
             </div>    
         </div>
         @empty
-
+        
         @endforelse
     </div>
 </div>

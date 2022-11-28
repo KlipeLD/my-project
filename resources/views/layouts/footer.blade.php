@@ -1,3 +1,9 @@
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col">
+    </div>
+  </div>
+</div>
 @if(!isset($_COOKIE['cookie_save']))
   <!-- Cookie Banner -->
   <div id="cb-cookie-banner" class="alert alert-dark text-center mb-0" role="alert">

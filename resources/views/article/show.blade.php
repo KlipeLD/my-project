@@ -1,11 +1,31 @@
 @extends ('layouts.layout')
 
 @section ('head')
-
+    <title>
+        {{ __('messages.nav_blog') }} - 
+        @if(App::isLocale('ru'))
+            {{ $article->title_ru }}
+        @elseif(App::isLocale('en'))
+            {{ $article->title_en }}
+        @else
+            {{ $article->title_pl }}
+        @endif
+    </title>
+    <meta name="description" content="
+        @if(App::isLocale('ru'))
+            {{ $article->title_ru }}
+        @elseif(App::isLocale('en'))
+            {{ $article->title_en }}
+        @else
+            {{ $article->title_pl }}
+        @endif
+        {{ __('messages.nav_blog') }} - {{ __('messages.page_name') }}"
+    />
+    <link rel="canonical" href="{{ route('article.index') }}">
 @endsection
 
 @section ('content')
-<div class="container">
+<div class="container mb-5">
     <div class="row">
         <div class="col">
             <h1>
@@ -62,6 +82,5 @@
             </div>
         </div>
     </div>
-    
 </div>
 @endsection

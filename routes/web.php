@@ -43,12 +43,11 @@ Route::group(
     Route::get('/', 'App\Http\Controllers\CvController@index')->name('cv.index');
 
     Route::get('/cookies', 'App\Http\Controllers\CookieController@index')->name('cookies.index');
-
     Route::get('/contact', 'App\Http\Controllers\ContactController@index')->name('contact.index');
     Route::post( '/contact', 'App\Http\Controllers\ContactController@store')->name('contact.store');
 
     Route::resource('article', 'App\Http\Controllers\ArticleController');
-    Route::resource('service', 'App\Http\Controllers\ServiceController')->except(['show']);;
+    Route::resource('service', 'App\Http\Controllers\ServiceController')->except(['show']);
 
     Route::get('/weather', 'App\Http\Controllers\WeatherController@show')->name('weather.show');
 });

@@ -59,11 +59,15 @@ Dziękuję!</div>',
     'contact_recaptcha_text' => '',
     'recaptcha_fail' => 'Błędnie wypełnione pole reCAPTCHA',
 
-    /*Blog form*/
+    /* Blog form*/
     'nav_blog' => 'Blog',
     'title'=> 'Tytuł',
     'body' => 'Treść',
     'image' => 'Zdjęcie',
+
+    /* Services form */
+    'nav_services' => 'Serwisy',
+    'url' => 'Link',
 
     /* Elements */
     'create' => 'Stwórz',
@@ -73,4 +77,9 @@ Dziękuję!</div>',
     'edit' => 'Edituj',
     'editing' => 'Editowanie',
     'delete' => 'Kasuj',
+
+    /* Weather */
+    'weather_header' => 'Pogoda',
+    'weather_info' => 'Pogoda teraz:',
+    'weather_img_alt' => 'Iconka pogody',
 ];

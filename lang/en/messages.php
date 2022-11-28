@@ -64,6 +64,10 @@ Thanks!</div>',
     'body' => 'Body',
     'image' => 'Image',
 
+    /* Services form */
+    'nav_services' => 'Services',
+    'url' => 'Url',
+
     /* Elements */
     'create' => 'Create',
     'creating' => 'Creating',
@@ -72,4 +76,12 @@ Thanks!</div>',
     'edit' => 'Edit',
     'editing' => 'Editing',
     'delete' => 'Delete',
+
+    /* Weather */
+    'weather_header' => 'Weather',
+    'weather_info' => 'Weather now:',
+    'weather_img_alt' => 'weather icon',
+
+
+
 ];

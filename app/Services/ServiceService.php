@@ -2,34 +2,35 @@
 
 namespace App\Services;
 
-use App\Models\Article;
+use App\Models\Service;
 use Illuminate\Support\Facades\File; 
 
-class ArticleService
+class ServiceService
 {
-    protected Article $article;
+    protected Service $service;
 
-    public function __construct(Article $article)
+    public function __construct(Service $service)
     {
-        $this->article = $article;
+        $this->service = $service;
     }
 
     public function uploadedImage($image): string
     {
         if (!is_null($image)) {
             $imgName = time().'_'.rand().'.'.$image->extension();
-            $image->move(public_path('img/articles'), $imgName);
+            $image->move(public_path('img/services'), $imgName);
             return $imgName;
         }
     }
 
     public function deletedImage($image): void
     {
-        $image = public_path('img/articles/'.$image);
+        $image = public_path('img/services/'.$image);
         if(File::exists($image)) 
         {
             File::delete($image);
         }
     }
+
 
 }

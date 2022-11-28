@@ -16,11 +16,11 @@
                                     @if(Session::has('textOnTop'))
                                         {!! Session::get('textOnTop') !!}
                                     @endif
-                                    <div class="card">
-                                        <div class="card-header">{{ __('messages.nav_blog') . ' - ' . __('messages.creating') }}</div>
+                                    <div class="card mb-5">
+                                        <div class="card-header">{{ __('messages.nav_services') . ' - ' . __('messages.creating') }}</div>
 
                                         <div class="card-body">
-                                            <form method="POST" action="{{ route('article.store') }}" enctype="multipart/form-data">
+                                            <form method="POST" action="{{ route('service.store') }}" enctype="multipart/form-data">
                                                 @csrf
 
                                                 <div class="form-group row mt-3">
@@ -34,24 +34,6 @@
                                                                autofocus>
 
                                                         @error('title_en')
-                                                        <span class="invalid-feedback" role="alert">
-                                                            <strong>{{ $message }}</strong>
-                                                        </span>
-                                                        @enderror
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group row mt-3">
-                                                    <label for="body_en"
-                                                           class="col-md-3 col-form-label text-md-right">{{ __('messages.body') }} (EN)</label>
-
-                                                    <div class="col-md-8">
-                                                        <textarea id="body_en" type="text"
-                                                                  class="form-control boxShadNone @error('body_en') is-invalid @enderror"
-                                                                  name="body_en"
-                                                        >{!! htmlspecialchars(old('body_en')) !!}</textarea>
-
-                                                        @error('body_en')
                                                         <span class="invalid-feedback" role="alert">
                                                             <strong>{{ $message }}</strong>
                                                         </span>
@@ -78,24 +60,6 @@
                                                 </div>
 
                                                 <div class="form-group row mt-3">
-                                                    <label for="body_pl"
-                                                           class="col-md-3 col-form-label text-md-right">{{ __('messages.body') }} (PL)</label>
-
-                                                    <div class="col-md-8">
-                                                        <textarea id="body_pl" type="text"
-                                                                  class="form-control boxShadNone @error('body_pl') is-invalid @enderror"
-                                                                  name="body_pl"
-                                                        >{!! htmlspecialchars(old('body_pl')) !!}</textarea>
-
-                                                        @error('body_pl')
-                                                        <span class="invalid-feedback" role="alert">
-                                                            <strong>{{ $message }}</strong>
-                                                        </span>
-                                                        @enderror
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group row mt-3">
                                                     <label for="title_ru"
                                                            class="col-md-3 col-form-label text-md-right">{{ __('messages.title') }} (RU)</label>
 
@@ -114,16 +78,31 @@
                                                 </div>
 
                                                 <div class="form-group row mt-3">
-                                                    <label for="body_ru"
-                                                           class="col-md-3 col-form-label text-md-right">{{ __('messages.body') }} (RU)</label>
+                                                    <label for="url"
+                                                           class="col-md-3 col-form-label text-md-right">{{ __('messages.url') }}</label>
 
                                                     <div class="col-md-8">
-                                                        <textarea id="body_ru" type="text"
-                                                                  class="form-control boxShadNone @error('body_ru') is-invalid @enderror"
-                                                                  name="body_ru"
-                                                        >{!! htmlspecialchars(old('body_ru')) !!}</textarea>
+                                                        <input id="url" type="text"
+                                                               class="form-control boxShadNone @error('url') is-invalid @enderror"
+                                                               name="url" value="{{ old('url') }}" autocomplete="off"
+                                                        >
 
-                                                        @error('body_ru')
+                                                        @error('url')
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                        @enderror
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group row mt-3">
+                                                    <label for="img"
+                                                           class="col-md-3 col-form-label text-md-right">{{ __('messages.image') }}</label>
+                                                    
+                                                    <div class="col-md-8">
+                                                        <input type="file" name="img" accept="image/*" class=" form-control @error('img') is-invalid @enderror" value="{{ old('img') }}">
+                                                        
+                                                        @error('img')
                                                         <span class="invalid-feedback" role="alert">
                                                             <strong>{{ $message }}</strong>
                                                         </span>

@@ -52,11 +52,11 @@
             <div class="row mt-3">
                 <div class="col">
                     @if(App::isLocale('ru'))
-                        {!! $article->body_ru !!}
+                        {!! nl2br($article->body_ru) !!}
                     @elseif(App::isLocale('en'))
-                        {!! $article->body_en !!}
+                        {!! nl2br($article->body_en) !!}
                     @else
-                        {!! $article->body_pl !!}
+                        {!! nl2br($article->body_pl) !!}
                     @endif
                 </div>
             </div>

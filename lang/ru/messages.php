@@ -70,6 +70,9 @@ return [
     'body' => 'Содержание',
     'image' => 'Изображение',
 
+    /* Services form */
+    'nav_services' => 'Сервисы',
+    'url' => 'Ссылка',
 
     /* Elements */
     'create' => 'Создать',
@@ -79,4 +82,10 @@ return [
     'edit' => 'Изменить',
     'editing' => 'Изменение',
     'delete' => 'Удалить',
+
+    /* Weather */
+    'weather_header' => 'Погода',
+    'weather_info' => 'Погода сейчас:',
+    'weather_img_alt' => 'Иконка погоды',
+
 ];

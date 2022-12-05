@@ -71,13 +71,15 @@
             </div>
             <div class="row mt-3">
                 <div class="col">
-                    @if(App::isLocale('ru'))
-                        {!! nl2br($article->body_ru) !!}
-                    @elseif(App::isLocale('en'))
-                        {!! nl2br($article->body_en) !!}
-                    @else
-                        {!! nl2br($article->body_pl) !!}
-                    @endif
+                    <div class="articleBody">
+                        @if(App::isLocale('ru'))
+                            {!! nl2br($article->body_ru) !!}
+                        @elseif(App::isLocale('en'))
+                            {!! nl2br($article->body_en) !!}
+                        @else
+                            {!! nl2br($article->body_pl) !!}
+                        @endif
+                    </div>
                 </div>
             </div>
         </div>

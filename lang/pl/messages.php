@@ -82,4 +82,17 @@ Dziękuję!</div>',
     'weather_header' => 'Pogoda',
     'weather_info' => 'Pogoda teraz:',
     'weather_img_alt' => 'Iconka pogody',
+
+    /* Barcode */
+    'barcode_index_text' => 'Ten przykład pokazuje zakodowany tekst " Hello world:)". <br>
+    Możesz to sprawdzić za pomocą skanera kodów kreskowych w telefonie (pod warunkiem, że odczytuje kody 128, ale większość nowoczesnych modeli telefonów nie mają z tym problemów).<br>
+    Możesz zakodować swój tekst za pomocą tego linku:',
+    'barcode_button' => 'Klik klik',
+    'barcode_header' => 'Zakoduj swój własny tekst do kodu kreskowego code128',
+    'barcode_label_input' => 'Wpisz swój tekst',
+    'barcode_button_enter' => 'Generuj kod kreskowy',
+    'barcode_output' => 'Kod kreskowy do tekstu:',
+    'barcode_show_text' => 'Ten przykład pokazuje zakodowany tekst " Hello world:)". <br>
+    Możesz zakodować swój tekst, wpisując go w polu poniżej i klikając przycisk "Generuj kod kreskowy"
+    ',
 ];

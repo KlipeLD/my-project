@@ -24,7 +24,7 @@ class ArticleController extends Controller
     {
         return view('article.index', ['articles' => $this->article->getArticles()]);
     }
-
+    
     public function create()
     {
         return view('article.create');

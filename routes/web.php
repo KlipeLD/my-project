@@ -50,6 +50,9 @@ Route::group(
     Route::resource('service', 'App\Http\Controllers\ServiceController')->except(['show']);
 
     Route::get('/weather', 'App\Http\Controllers\WeatherController@show')->name('weather.show');
+
+    Route::get('/barcode/code128', 'App\Http\Controllers\BarcodeController@code128')->name('barcode.code128.index');
+    Route::post('/barcode/code128', 'App\Http\Controllers\BarcodeController@code128_show')->name('barcode.code128.show');
+
+    Route::get('/search','App\Http\Controllers\SearchController@index')->name('search');
 });
-
-

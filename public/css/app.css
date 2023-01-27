@@ -167,3 +167,20 @@ body {
 {
     word-wrap: break-word;
 }
+@font-face 
+{
+    font-family: code128;
+    src: url(/fonts/code128.ttf);
+}
+.barcode_body
+{
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+.barcode_clear_text 
+{
+    background-color: rgb(19, 3, 97);
+    border-radius: 5px 5px 5px 5px;
+    padding: 2px;
+}

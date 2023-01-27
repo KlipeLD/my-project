@@ -82,6 +82,17 @@ Thanks!</div>',
     'weather_info' => 'Weather now:',
     'weather_img_alt' => 'weather icon',
 
-
+    /* Barcode */
+    'barcode_index_text' => 'This example shows the encoded text "Hello world :)". <br>
+    You can check this by using the barcode scanner in your phone (provided that it reads 128 codes, but most modern phone models have no problems with this).<br>
+    You can encode your text using this link:',
+    'barcode_button' => 'Click click',
+    'barcode_header' => 'Encoding text to a barcode code128',
+    'barcode_label_input' => 'Enter your text',
+    'barcode_button_enter' => 'Generate barcode',
+    'barcode_output' => 'Barcode for text:',
+    'barcode_show_text' => 'This example shows the encoded text "Hello world :)". <br>
+    You can encode your text by entering it in the field below and clicking the "Generate barcode" button.
+    ',
 
 ];

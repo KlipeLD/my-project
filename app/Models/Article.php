@@ -44,6 +44,11 @@ class Article extends Model
         //TODO: comments
     }
 
+    public function getSearchArticles() : Collection
+    {
+        return $this->whereRAW('deleted_at IS NULL')->get();
+    }
+
     public function getArticleBySlugWithDecode($slug): Article
     {
         $article = $this->where('slug', $slug)->firstorfail();

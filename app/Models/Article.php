@@ -78,6 +78,26 @@ class Article extends Model
         $article->body_ru = str_replace('[.code]','</div>',$article->body_ru);
         $article->body_en = str_replace('[.code]','</div>',$article->body_en);
         $article->body_pl = str_replace('[.code]','</div>',$article->body_pl);
+        $patterns = array(
+            "/\[link\](.*?)\[\/link\]/",
+            "/\[url\](.*?)\[\/url\]/",
+            "/\[img\](.*?)\[\/img\]/",
+            "/\[b\](.*?)\[\/b\]/",
+            "/\[u\](.*?)\[\/u\]/",
+            "/\[i\](.*?)\[\/i\]/"
+        );
+        $replacements = array(
+            "<a class='linkColorRed' href=\"\\1\">\\1</a>",
+            "<a class='linkColorRed' href=\"\\1\">\\1</a>",
+            "<img src=\"\\1\">",
+            "<b>\\1</b>",
+            "<u>\\1</u>",
+            "<i>\\1</i>"
+           
+        );
+        $article->body_ru = preg_replace($patterns,$replacements, $article->body_ru);
+        $article->body_en = preg_replace($patterns,$replacements, $article->body_en);
+        $article->body_pl = preg_replace($patterns,$replacements, $article->body_pl);
         return $article;
     }
 }

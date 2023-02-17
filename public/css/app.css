@@ -53,6 +53,9 @@ body {
 .linkColor:hover {
     color: #dc1e1e;
 }
+.linkColorRed, .linkColorRed:hover {
+    color: #dc1e1e;
+}
 /* ===================================================== */
 /* TEXT */
 .mainTextStyle {

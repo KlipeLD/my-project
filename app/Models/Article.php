@@ -87,7 +87,7 @@ class Article extends Model
             "/\[i\](.*?)\[\/i\]/"
         );
         $replacements = array(
-            "<a class='linkColorRed' href=\"\\1\">\\1</a>",
+            "<a target='_blank' class='linkColorRed' href=\"\\1\">\\1</a>",
             "<a class='linkColorRed' href=\"\\1\">\\1</a>",
             "<img src=\"\\1\">",
             "<b>\\1</b>",

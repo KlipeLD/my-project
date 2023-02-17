@@ -9,62 +9,132 @@
 
 <url>
   <loc>https://php-developer-polska.pl/en</loc>
-  <lastmod>2022-07-25T19:48:01+00:00</lastmod>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://php-developer-polska.pl/en/contact</loc>
-  <lastmod>2022-07-25T19:48:01+00:00</lastmod>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://php-developer-polska.pl/pl/contact</loc>
-  <lastmod>2022-07-25T19:48:01+00:00</lastmod>
+  <loc>https://php-developer-polska.pl/en/article</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://php-developer-polska.pl/ru/contact</loc>
-  <lastmod>2022-07-25T19:48:01+00:00</lastmod>
+  <loc>https://php-developer-polska.pl/en/service</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/pl/service</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/ru/service</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://php-developer-polska.pl/Yantsevich_Yulia-PHP-Developer_(en-pl).pdf</loc>
-  <lastmod>2022-07-25T19:38:49+00:00</lastmod>
+  <lastmod>2022-11-24T08:55:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://php-developer-polska.pl/en/cookies</loc>
-  <lastmod>2022-07-25T19:48:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://php-developer-polska.pl/pl</loc>
-  <lastmod>2022-07-25T19:48:01+00:00</lastmod>
+  <loc>https://php-developer-polska.pl/en/article/what-is-this-blog-about</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://php-developer-polska.pl/pl/cookies</loc>
-  <lastmod>2022-07-25T19:48:01+00:00</lastmod>
+  <loc>https://php-developer-polska.pl/en/article/weather-api-simple-implementation-in-laravel-php</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/en/article/using-the-barcode-generator-library-code-128</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/en/weather</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/en/barcode/code128</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/pl</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/pl/contact</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/pl/article</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://php-developer-polska.pl/ru</loc>
-  <lastmod>2022-07-25T19:48:01+00:00</lastmod>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://php-developer-polska.pl/ru/cookies</loc>
-  <lastmod>2022-07-25T19:48:01+00:00</lastmod>
+  <loc>https://php-developer-polska.pl/ru/contact</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/ru/article</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://php-developer-polska.pl/Yantsevich_Julia-PHP-Developer_(pl-pl).pdf</loc>
-  <lastmod>2022-07-25T19:38:49+00:00</lastmod>
+  <lastmod>2022-11-24T08:55:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/pl/article/what-is-this-blog-about</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/pl/article/weather-api-simple-implementation-in-laravel-php</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/pl/article/using-the-barcode-generator-library-code-128</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://php-developer-polska.pl/Yantsevich_Yulia-PHP-Developer_(ru-pl).pdf</loc>
-  <lastmod>2022-07-25T19:38:49+00:00</lastmod>
+  <lastmod>2022-11-24T08:55:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/ru/article/what-is-this-blog-about</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/ru/article/weather-api-simple-implementation-in-laravel-php</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://php-developer-polska.pl/ru/article/using-the-barcode-generator-library-code-128</loc>
+  <lastmod>2023-02-17T17:55:42+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 

@@ -95,4 +95,11 @@ Dziękuję!</div>',
     'barcode_show_text' => 'Ten przykład pokazuje zakodowany tekst " Hello world:)". <br>
     Możesz zakodować swój tekst, wpisując go w polu poniżej i klikając przycisk "Generuj kod kreskowy"
     ',
+    'barcode_show_text2' => 'Jakie znaki są kodowane w kodzie kreskowym CODE-128?<br>
+    Kod kreskowy CODE-128 może zawierać do 70 zakodowanych znaków:<br><br>
+    - duże litery łacińskie (od A do z);<br>
+    - cyfry (od 0 do 9);<br>
+    - niektóre znaki specjalne (!"#$%^&*()-=|\/:;,\'."~+-_*{}[]:).<br><br>
+    Zestaw znaków umożliwia umieszczenie na kodzie kreskowym nie tylko kodu kreskowego z numerem, takim jak 00001, ale także znaków oznaczonych identyfikatorem zawierającym przedrostek literowy (np. AC0001) lub w pełni dosłowne wartości.
+    ',
 ];

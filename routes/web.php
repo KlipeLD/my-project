@@ -35,10 +35,10 @@ Route::group(
         }
     )->name('cv.index');
 
-    Route::get('/cookies', function ()
-    {
+    // Route::get('/cookies', function ()
+    // {
         
-    })->name('cookies');
+    // })->name('cookies');
 
     Route::get('/', 'App\Http\Controllers\CvController@index')->name('cv.index');
 

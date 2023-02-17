@@ -92,7 +92,13 @@ Thanks!</div>',
     'barcode_button_enter' => 'Generate barcode',
     'barcode_output' => 'Barcode for text:',
     'barcode_show_text' => 'This example shows the encoded text "Hello world :)". <br>
-    You can encode your text by entering it in the field below and clicking the "Generate barcode" button.
-    ',
+    You can encode your text by entering it in the field below and clicking the "Generate barcode" button.',
+    'barcode_show_text2' => '<br>
+    Up to 70 characters can be encoded into the barcode CODE-128:<br>
+large Latin letters (from A to Z);<br>
+digits (from 0 to 9);<br>
+some special characters (!"#$%^&()-=|/:;,\'."~+-_{}[]:).<br><br>
+The character set allows you to put on the card not only a barcode with a number, for example 00001, but also cards with an identifier designation containing a letter prefix (for example, AC0001) or fully alphabetic values.<br><br>',
+
 
 ];

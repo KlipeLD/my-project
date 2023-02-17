@@ -24,5 +24,11 @@
             <div style='color: black; font-family: code128;font-size: 70px'>{{ $barcode }}</div>
         </div>
     </div>
+    <hr class="mt-5">
+    <div class="row">
+        <div class="col">
+            {!! __('messages.barcode_show_text2') !!}
+        </div>
+    </div>
 </div>
 @endsection

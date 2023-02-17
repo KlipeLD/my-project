@@ -1006,12 +1006,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KlipeLD/text_to_barcode.git",
-                "reference": "adfe44ac0e0dfd1ab8b8a3a737d83da74c9aca13"
+                "reference": "f2cbb29b3ba42f4ce62d73ce03b433aea39511fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KlipeLD/text_to_barcode/zipball/adfe44ac0e0dfd1ab8b8a3a737d83da74c9aca13",
-                "reference": "adfe44ac0e0dfd1ab8b8a3a737d83da74c9aca13",
+                "url": "https://api.github.com/repos/KlipeLD/text_to_barcode/zipball/f2cbb29b3ba42f4ce62d73ce03b433aea39511fc",
+                "reference": "f2cbb29b3ba42f4ce62d73ce03b433aea39511fc",
                 "shasum": ""
             },
             "require": {
@@ -1041,7 +1041,7 @@
                 "issues": "https://github.com/KlipeLD/text_to_barcode/issues",
                 "source": "https://github.com/KlipeLD/text_to_barcode/tree/main"
             },
-            "time": "2023-02-17T09:39:07+00:00"
+            "time": "2023-02-17T12:18:47+00:00"
         },
         {
             "name": "laravel/framework",

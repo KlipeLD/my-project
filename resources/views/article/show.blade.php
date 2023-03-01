@@ -27,7 +27,7 @@
 @section ('content')
 <div class="container mb-5">
     <div class="row">
-        <div class="col">
+        <div class="col-md-8 four divCenter">
             <h1>
                 @if(App::isLocale('ru'))
                     {{ $article->title_ru }}
@@ -59,7 +59,7 @@
     </div>
     @endif
     <div class="row">
-        <div class="col-md-8 mt-3">
+        <div class="col-md-8 mt-3 ">
             <div class="row">
                 <div class="col">
                     @if(!empty($article->img))

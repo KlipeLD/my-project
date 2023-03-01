@@ -46,7 +46,7 @@
                                                            class="col-md-3 col-form-label text-md-right">{{ __('messages.body') }} (EN)</label>
 
                                                     <div class="col-md-8">
-                                                        <textarea id="body_en" type="text"
+                                                        <textarea id="body_en" type="text" rows="14" 
                                                                   class="form-control boxShadNone @error('body_en') is-invalid @enderror"
                                                                   name="body_en"
                                                         >{!! htmlspecialchars($article->body_en) !!}</textarea>
@@ -82,7 +82,7 @@
                                                            class="col-md-3 col-form-label text-md-right">{{ __('messages.body') }} (PL)</label>
 
                                                     <div class="col-md-8">
-                                                        <textarea id="body_pl" type="text"
+                                                        <textarea id="body_pl" type="text" rows="14" 
                                                                   class="form-control boxShadNone @error('body_pl') is-invalid @enderror"
                                                                   name="body_pl"
                                                         >{!! htmlspecialchars($article->body_pl) !!}</textarea>
@@ -118,7 +118,7 @@
                                                            class="col-md-3 col-form-label text-md-right">{{ __('messages.body') }} (RU)</label>
 
                                                     <div class="col-md-8">
-                                                        <textarea id="body_ru" type="text"
+                                                        <textarea id="body_ru" type="text" rows="14" 
                                                                   class="form-control boxShadNone @error('body_ru') is-invalid @enderror"
                                                                   name="body_ru"
                                                         >{!! htmlspecialchars($article->body_ru) !!}</textarea>

@@ -8,9 +8,9 @@
 
 @section ('content')
 <div class="container mt-3">
-	<div class="container-fluid mb-2">
+	<div class="container-fluid mb-2 divCenter">
 		<div class="row">
-			<div class="col-md-12 customH1">
+			<div class="col-md-12 four justify-content-center">
 				<h1>{{ __('messages.nav_cv') }}</h1>
 			</div>
 		</div>

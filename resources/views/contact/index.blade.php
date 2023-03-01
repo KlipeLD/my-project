@@ -9,6 +9,13 @@
 
 @section ('content')
     <div class="container-fluid">
+        <div class="container-fluid mb-2 divCenter">
+            <div class="row">
+                <div class="col-md-12 four justify-content-center">
+                    <h1>{{ __('messages.nav_contact_form') }}</h1>
+                </div>
+            </div>
+        </div>
         <div class="marginTopFromMenu">
             <div class="row justify-content-center">
                 <div class="col-12 mt-5 ">

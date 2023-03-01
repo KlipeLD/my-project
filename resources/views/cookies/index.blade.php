@@ -3,7 +3,7 @@
 @section('head')
   <title>{{ __('messages.page_name') }}</title>
   <meta name="description" content="Cookie {{ __('messages.page_name') }}"/>
-  <link rel="canonical" href="{{ route('cookies') }}">
+  <link rel="canonical" href="{{ route('cookies.index') }}">
 @endsection
 
 @section ('content')

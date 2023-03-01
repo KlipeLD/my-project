@@ -187,3 +187,61 @@ body {
     border-radius: 5px 5px 5px 5px;
     padding: 2px;
 }
+
+/* customH1 */
+.customH1 {
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+  .customH1 h1 {
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+    color: #a30f0f;
+    font-size: 40px;
+    padding: .4em 1em .55em;
+  }
+  .customH1 h1:before,
+  .customH1 h1:after {
+    content: ""; 
+    position: absolute;
+    width: 60%;
+    height: .1em;
+    background: #a30f0f; 
+  }
+  .customH1 h1:before {
+    left: 0;
+    top: 0;
+  }
+  .customH1 h1:after {
+    right: 0;
+    bottom: 0;
+  }
+  .customH1 h1 span:before,
+  .customH1 h1 span:after {
+    content: ""; 
+    position: absolute;
+    width: .65em;
+    height: .65em;
+    border: .1em solid #a30f0f;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  .customH1 h1 span:before {
+    top: -.55em;
+    left: -.325em;
+  }
+  .customH1 h1 span:after {
+    bottom: -.55em;
+    right: -.325em;
+  }
+  @media (max-width: 600px) {
+    .customH1 h1 {font-size: 2em;}
+  }
+  @media (max-width: 450px) {
+    .customH1 h1 {font-size: 1.5em;}
+  }
+  /* end customH1 */

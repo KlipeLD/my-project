@@ -8,6 +8,13 @@
 
 @section ('content')
 <div class="container mt-3">
+	<div class="container-fluid mb-2">
+		<div class="row">
+			<div class="col-md-12 customH1">
+				<h1>{{ __('messages.nav_cv') }}</h1>
+			</div>
+		</div>
+	</div>
     <div class="row">
         <div class="col md-12">
             <h1>{{ __('messages.cv_name') }}</h1>

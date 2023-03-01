@@ -4,6 +4,7 @@
   <title>{{ __('messages.page_name') }}</title>
   <meta name="description" content="Cookie {{ __('messages.page_name') }}"/>
   <link rel="canonical" href="{{ route('cookies.index') }}">
+  <script src="{{ asset('/js/cookieOpen.js') }}"></script>
 @endsection
 
 @section ('content')

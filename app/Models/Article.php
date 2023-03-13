@@ -63,15 +63,15 @@ class Article extends Model
 
     protected function decodeHtmlInBody(Article $article) : Article
     {
-        $article->body_pl = htmlspecialchars_decode($article->body_pl);
-        $article->body_en = htmlspecialchars_decode($article->body_en);
-        $article->body_ru = htmlspecialchars_decode($article->body_ru);
+        // $article->body_pl = htmlspecialchars_decode($article->body_pl);
+        // $article->body_en = htmlspecialchars_decode($article->body_en);
+        // $article->body_ru = htmlspecialchars_decode($article->body_ru);
         $article->body_ru = str_replace('   ','&nbsp;&nbsp;&nbsp;&nbsp;',$article->body_ru);
         $article->body_en = str_replace('   ','&nbsp;&nbsp;&nbsp;&nbsp;',$article->body_en);
         $article->body_pl = str_replace('   ','&nbsp;&nbsp;&nbsp;&nbsp;',$article->body_pl);
-        $article->body_ru = str_replace('<','&lt;',$article->body_ru);
-        $article->body_en = str_replace('<','&lt;',$article->body_en);
-        $article->body_pl = str_replace('<','&lt;',$article->body_pl);
+        // $article->body_ru = str_replace('<','&lt;',$article->body_ru);
+        // $article->body_en = str_replace('<','&lt;',$article->body_en);
+        // $article->body_pl = str_replace('<','&lt;',$article->body_pl);
         $article->body_ru = str_replace('[code]','<div class="code">',$article->body_ru);
         $article->body_en = str_replace('[code]','<div class="code">',$article->body_en);
         $article->body_pl = str_replace('[code]','<div class="code">',$article->body_pl);

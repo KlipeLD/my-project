@@ -57,7 +57,7 @@
                     <div class="dropdown menuLink">
                         <button class="btn btn-outline-danger dropdown-toggle langdrop " type="button"
                                 id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img class="worldImg" alt="download" src="/img/world.png">
+                            <img class="worldImg" alt="download" src="/img/world.png" >
                             @if(str_replace('_', '-', app()->getLocale()) == 'en')
                                 English
                             @elseif(str_replace('_', '-', app()->getLocale()) == 'pl')

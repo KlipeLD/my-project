@@ -4,6 +4,7 @@ namespace App\Services;
 
 use App\Models\Service;
 use Illuminate\Support\Facades\File; 
+use Buglinjo\LaravelWebp\Facades\Webp;
 
 class ServiceService
 {
@@ -16,10 +17,18 @@ class ServiceService
 
     public function uploadedImage($image): string
     {
+        // if (!is_null($image)) {
+        //     $imgName = time().'_'.rand().'.'.$image->extension();
+        //     $image->move(public_path('img/services'), $imgName);
+        //     return $imgName;
+        // }
         if (!is_null($image)) {
-            $imgName = time().'_'.rand().'.'.$image->extension();
-            $image->move(public_path('img/services'), $imgName);
-            return $imgName;
+            $webp = Webp::make($image);
+            $imgName = time().'_'.rand().'.webp';
+            if ($webp->save(public_path('img/services/' . $imgName))) {
+                return $imgName;
+            }
+            return '';
         }
     }
 

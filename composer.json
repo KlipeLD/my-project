@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "buglinjo/laravel-webp": "^2.3",
         "elasticsearch/elasticsearch": "^8.5",
         "guzzlehttp/guzzle": "^7.2",
         "klipeld/text_to_barcode": "dev-main",

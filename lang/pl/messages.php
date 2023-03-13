@@ -83,6 +83,10 @@ Dziękuję!</div>',
     'weather_info' => 'Pogoda teraz:',
     'weather_img_alt' => 'Iconka pogody',
 
+    /* Converter To Webp */
+    'converter_header' => 'Konwerter zdjęć do wormatu .Webp',
+    'converter_info' => '',
+
     /* Barcode */
     'barcode_index_text' => 'Ten przykład pokazuje zakodowany tekst " Hello world:)". <br>
     Możesz to sprawdzić za pomocą skanera kodów kreskowych w telefonie (pod warunkiem, że odczytuje kody 128, ale większość nowoczesnych modeli telefonów nie mają z tym problemów).<br>

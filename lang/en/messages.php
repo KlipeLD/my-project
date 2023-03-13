@@ -82,6 +82,10 @@ Thanks!</div>',
     'weather_info' => 'Weather now:',
     'weather_img_alt' => 'weather icon',
 
+     /* Converter To Webp */
+     'converter_header' => 'Converter for images to format .Webp',
+     'converter_info' => '',
+
     /* Barcode */
     'barcode_index_text' => 'This example shows the encoded text "Hello world :)". <br>
     You can check this by using the barcode scanner in your phone (provided that it reads 128 codes, but most modern phone models have no problems with this).<br>

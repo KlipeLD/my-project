@@ -4,6 +4,7 @@ namespace App\Services;
 
 use App\Models\Article;
 use Illuminate\Support\Facades\File; 
+use Buglinjo\LaravelWebp\Facades\Webp;
 
 class ArticleService
 {
@@ -16,10 +17,18 @@ class ArticleService
 
     public function uploadedImage($image): string
     {
+        // if (!is_null($image)) {
+        //     $imgName = time().'_'.rand().'.'.$image->extension();
+        //     $image->move(public_path('img/articles'), $imgName);
+        //     return $imgName;
+        // }
         if (!is_null($image)) {
-            $imgName = time().'_'.rand().'.'.$image->extension();
-            $image->move(public_path('img/articles'), $imgName);
-            return $imgName;
+            $webp = Webp::make($image);
+            $imgName = time().'_'.rand().'.webp';
+            if ($webp->save(public_path('img/articles/' . $imgName))) {
+                return $imgName;
+            }
+            return '';
         }
     }
 

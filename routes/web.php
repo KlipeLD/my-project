@@ -51,6 +51,9 @@ Route::group(
 
     Route::get('/weather', 'App\Http\Controllers\WeatherController@show')->name('weather.show');
 
+    // Route::get('/converter-images-to-webp', 'App\Http\Controllers\ConverterWebpController@show')->name('converterwebp.show');
+    // Route::post('/converter-images-to-webp', 'App\Http\Controllers\ConverterWebpController@store')->name('converterwebp.store');
+
     Route::get('/barcode/code128', 'App\Http\Controllers\BarcodeController@code128')->name('barcode.code128.index');
     Route::post('/barcode/code128', 'App\Http\Controllers\BarcodeController@code128_show')->name('barcode.code128.show');
 

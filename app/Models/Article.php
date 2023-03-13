@@ -26,9 +26,9 @@ class Article extends Model
         parent::boot();
 
         static::saving(function ($model) {
-            $model->body_pl = htmlspecialchars($model->body_pl);
-            $model->body_ru = htmlspecialchars($model->body_ru);
-            $model->body_en = htmlspecialchars($model->body_en);
+            $model->body_pl = $model->body_pl;
+            $model->body_ru = $model->body_ru;
+            $model->body_en = $model->body_en;
             $model->slug = Str::slug($model->title_en);
         });
     }

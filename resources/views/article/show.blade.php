@@ -21,7 +21,7 @@
         @endif
         {{ __('messages.nav_blog') }} - {{ __('messages.page_name') }}"
     />
-    <link rel="canonical" href="{{ route('article.index') }}">
+    <link rel="canonical" href="{{ route('article.show',['article' => $article->slug]) }}">
 @endsection
 
 @section ('content')

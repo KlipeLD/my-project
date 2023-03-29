@@ -106,4 +106,7 @@ Dziękuję!</div>',
     - niektóre znaki specjalne (!"#$%^&*()-=|\/:;,\'."~+-_*{}[]:).<br><br>
     Zestaw znaków umożliwia umieszczenie na kodzie kreskowym nie tylko kodu kreskowego z numerem, takim jak 00001, ale także znaków oznaczonych identyfikatorem zawierającym przedrostek literowy (np. AC0001) lub w pełni dosłowne wartości.
     ',
+
+    /* Errors */
+    'go_to_main_page' => 'Wróć do strony głównej',
 ];

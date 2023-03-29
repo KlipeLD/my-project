@@ -104,5 +104,6 @@ digits (from 0 to 9);<br>
 some special characters (!"#$%^&()-=|/:;,\'."~+-_{}[]:).<br><br>
 The character set allows you to put on the card not only a barcode with a number, for example 00001, but also cards with an identifier designation containing a letter prefix (for example, AC0001) or fully alphabetic values.<br><br>',
 
-
+    /* Errors */
+    'go_to_main_page' => 'Go to main page',
 ];

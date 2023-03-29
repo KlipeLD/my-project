@@ -31,4 +31,5 @@ $(document).ready(function() {
 // Assigning values to window object
     window.onload = initializeCookieBanner();
     window.cb_hideCookieBanner = hideCookieBanner;
+    $.cookie("cookie_save", 1);
 });

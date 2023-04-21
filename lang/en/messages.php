@@ -25,7 +25,7 @@ If necessary, I am ready to perform any test task.
 <br>
 Code examples can be found here: <a class="linkColor" target="_blank" href ="https://github.com/KlipeLD">https://github.com/KlipeLD</a>
 ',
-    'cv_work_experience' => 'Work experience — 4 years',
+    'cv_work_experience' => 'Work experience — 5 years',
     'cv_education' => 'Education',
     'cv_education_type' => 'Higher',
     'cv_download' => 'Download CV',

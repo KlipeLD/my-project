@@ -26,7 +26,7 @@ W razie potrzeby jestem gotowa wykonać zadanie testowe.
 <br>
 Przykłady kodu można znaleźć tutaj: <a class="linkColor" href ="https://github.com/KlipeLD">https://github.com/KlipeLD</a>
 ',
-    'cv_work_experience' => 'Staż pracy — 4 lata',
+    'cv_work_experience' => 'Staż pracy — 5 lat',
     'cv_education' => 'Wykształcenie',
     'cv_education_type' => 'Wyższe',
     'cv_download' => 'Pobierz CV',

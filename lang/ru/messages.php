@@ -28,7 +28,7 @@ https://php-developer-polska.pl/ru
 <br>
 Примеры кода можно найти тут: <a class="linkColor" href ="https://github.com/KlipeLD">https://github.com/KlipeLD</a>
     ',
-    'cv_work_experience' => 'Стаж работы — 4 года',
+    'cv_work_experience' => 'Стаж работы — 5 лет',
     'cv_education' => 'Образование',
     'cv_education_type' => 'Высшее',
     'cv_download' => 'Скачать резюме',

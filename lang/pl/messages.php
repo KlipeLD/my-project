@@ -19,6 +19,8 @@ return [
 <br><br>
 Oprócz oficjalnego doświadczenia (aby rozwinąć swoje umiejętności), w ciągu 5 lat zajmowałam się tworzeniem modułów PHP do gry RPG online.
 (php 5.6 = > php 7.4 + SQL)
+<br><br>Również aby rozwijać swoje umiejętności prowadzę i rozwijam swoją stronę internetową:<br>
+https://php-developer-polska.pl/pl
 <br><br>
 W razie potrzeby jestem gotowa wykonać zadanie testowe.
 <br>

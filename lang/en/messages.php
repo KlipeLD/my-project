@@ -18,6 +18,8 @@ return [
     'cv_about_me_text' => 'I love programming and I want to develop my skills. <br>I will be glad to work in a company in which there is an opportunity both to show my abilities and to learn something new.
 <br><br>In addition to official experience (to develop my skills), I had been developing PHP modules for an online RPG game for 5 years.
 (pure php 5.6 => php 7.4 + SQL).
+<br><br>Also in addition to experience (to develop my skills) I have my own webpage:<br>
+https://php-developer-polska.pl/en
 <br><br>
 If necessary, I am ready to perform any test task. 
 <br>

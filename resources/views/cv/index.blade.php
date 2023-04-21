@@ -21,11 +21,11 @@
             <h2 class="cvH2">{{__('messages.cv_position') }}</h2>
 						<a class="linkColor" target="_blank"
 							 @if(App::isLocale('ru'))
-							 href="/Yantsevich_Yulia-PHP-Developer_(ru-pl).pdf"
+							 href="/Yantsevich_Yulia-PHP-Developer_ru.pdf"
 							 @elseif(App::isLocale('pl'))
-							 href="/Yantsevich_Julia-PHP-Developer_(pl-pl).pdf"
+							 href="/Jancewicz_Julia-Programista_PHP_pl.pdf"
 							 @else
-							 href="/Yantsevich_Yulia-PHP-Developer_(en-pl).pdf"
+							 href="/Yantsevich_Yulia-PHP-Developer_en.pdf"
 							 @endif
 							 ><img class="downloadImg" alt="download" src="/img/download.png">{{ __('messages.cv_download') }}</a>
 					<hr>
@@ -84,7 +84,23 @@
 									<div class="col-md-2">
 										{{ __('messages.cv_may') }} 2021 —<br>
 										{{ __('messages.cv_now') }}<br>
-{{--										1 {{ __('messages.cv_year') }}<br>--}}
+										4 {{ __('messages.cv_months') }}<br>
+									</div>
+									<div class="col-md-10">
+										<b>One Dollar Sp z o.o. (Poland)</b><br>
+										<b>Developer</b><br><br>
+										• Projects on PHP 8 + Laravel 8<br>
+										• Projects on VBA<br>
+										• Projects on C#<br>
+										(SQL(MySQL/SQLite/Microsoft SQL) + HTML + Javascript + JQuery + AJAX + Unix-hosting)<br>
+									</div>
+								</div>
+								<hr class="hrRed">
+								<div class="row">
+									<div class="col-md-2">
+										{{ __('messages.cv_may') }} 2021 —<br>
+										{{ __('messages.cv_now') }}<br>
+										1 {{ __('messages.cv_year') }} 7 {{ __('messages.cv_months') }}<br>
 									</div>
 									<div class="col-md-10">
 										<b>One Dollar Sp z o.o. (Poland)</b><br>

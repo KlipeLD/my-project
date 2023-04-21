@@ -87,7 +87,7 @@
 										4 {{ __('messages.cv_months') }}<br>
 									</div>
 									<div class="col-md-10">
-										<b>One Dollar Sp z o.o. (Poland)</b><br>
+										<b>ADAR (Poland)</b><br>
 										<b>Developer</b><br><br>
 										• Projects on PHP 8 + Laravel 8<br>
 										• Projects on VBA<br>

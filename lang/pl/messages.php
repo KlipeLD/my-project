@@ -2,11 +2,11 @@
 
 return [
 
-    'page_name' => 'Julia Yantsevich - PHP-Developer - CV',
+    'page_name' => 'Julia Jancewicz - PHP-Developer - CV',
 
     /*CV*/
     'nav_cv' => 'CV',
-    'cv_name' => 'Julia Yantsevich',
+    'cv_name' => 'Julia Jancewicz',
     'cv_position' => 'PHP-Developer',
     'cv_tel' => 'Tel.',
     'cv_languages' => 'Języki',

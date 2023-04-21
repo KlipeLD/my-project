@@ -65,6 +65,7 @@ https://php-developer-polska.pl/ru
     'contact_form' => 'Контактная форма',
     'contact_recaptcha_text' => '',
     'recaptcha_fail' => 'Неверно заполнено поле ReCAPTCHA',
+    'contact_accept' => 'Я даю согласие на то, чтобы Юлия Янцевич связалась со мной по электронной почте или телефону для обсуждения деталей сотрудничества.',
 
     /*Blog form*/
     'nav_blog' => 'Блог',

@@ -60,6 +60,7 @@ Dziękuję!</div>',
     'contact_form' => 'Formularz kontaktowy',
     'contact_recaptcha_text' => '',
     'recaptcha_fail' => 'Błędnie wypełnione pole reCAPTCHA',
+    'contact_accept' => 'Wyrażam zgodę na kontakt mailowy lub telefoniczny z Panią Julią Jancewicz w celu omówienia szczegółów współpracy.',
 
     /* Blog form*/
     'nav_blog' => 'Blog',

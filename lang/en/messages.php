@@ -59,6 +59,7 @@ Thanks!</div>',
     'contact_form' => 'Contact form',
     'contact_recaptcha_text' => '',
     'recaptcha_fail' => 'ReCAPTCHA field incorrectly filled',
+    'contact_accept' => 'I consent to being contacted by email or telephone by Julia Yantsevich in order to discuss the details of cooperation.',
 
     /* Blog form*/
     'nav_blog' => 'Blog',

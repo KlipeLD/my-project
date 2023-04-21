@@ -170,6 +170,22 @@
                                                     </div>
                                                 </div>
 
+                                                <div class="form-group row mt-3">
+                                                    <label class="col-md-3">
+
+                                                    </label>
+                                                    <div class="col-md-8">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mt-3">
+                                                    <label class="col-md-3">
+
+                                                    </label>
+                                                    <div class="col-md-8">
+                                                        <i class="far fa-check-square"></i> {{ __('messages.contact_accept') }}
+                                                    </div>
+                                                </div>
+
                                                 <div class="form-group row mb-0 mt-3">
                                                     <div class="col-md-6 offset-md-3">
                                                         <button

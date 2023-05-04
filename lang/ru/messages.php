@@ -41,6 +41,8 @@ https://php-developer-polska.pl/ru
     'cv_years' => 'года',
     'cv_months' => 'месяцев',
     'cv_january' => 'Январь',
+    'cv_april' => 'Апрель',
+    'cv_december' => 'Декабрь',
     'cv_may' => 'Май',
     'cv_september' => 'Сентябрь',
     'cv_october' => 'Октябрь',

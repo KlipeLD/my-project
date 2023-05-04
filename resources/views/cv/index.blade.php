@@ -82,13 +82,13 @@
 								<b class="text-decoration-underline">{{ __('messages.cv_work_experience') }}:</b><br>
 								<div class="row">
 									<div class="col-md-2">
-										{{ __('messages.cv_may') }} 2021 —<br>
-										{{ __('messages.cv_now') }}<br>
+										{{ __('messages.cv_january') }} 2023 —<br>
+										{{ __('messages.cv_april') }}<br>
 										4 {{ __('messages.cv_months') }}<br>
 									</div>
 									<div class="col-md-10">
-										<b>ADAR (Poland)</b><br>
-										<b>Developer</b><br><br>
+										<b>A.H.U. ADAR Dariusz Adamiec (Poland)</b><br>
+										<b>Informatyk, PHP-Developer</b><br><br>
 										• Projects on PHP 8 + Laravel 8<br>
 										• Projects on VBA<br>
 										• Projects on C#<br>
@@ -99,12 +99,12 @@
 								<div class="row">
 									<div class="col-md-2">
 										{{ __('messages.cv_may') }} 2021 —<br>
-										{{ __('messages.cv_now') }}<br>
+										{{ __('messages.cv_december') }} 2022<br>
 										1 {{ __('messages.cv_year') }} 7 {{ __('messages.cv_months') }}<br>
 									</div>
 									<div class="col-md-10">
 										<b>One Dollar Sp z o.o. (Poland)</b><br>
-										<b>Developer</b><br><br>
+										<b>Informatyk, PHP-Developer</b><br><br>
 										• Projects on PHP 8 + Laravel 8<br>
 										• Projects on VBA<br>
 										• Projects on C#<br>

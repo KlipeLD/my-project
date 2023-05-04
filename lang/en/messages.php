@@ -38,6 +38,8 @@ Code examples can be found here: <a class="linkColor" target="_blank" href ="htt
     'cv_years' => 'years',
     'cv_months' => 'mounths',
     'cv_january' => 'January',
+    'cv_april' => 'April',
+    'cv_december' => 'December',
     'cv_may' => 'May',
     'cv_september' => 'September',
     'cv_october' => 'Oktober',

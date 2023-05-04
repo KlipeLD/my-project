@@ -39,6 +39,8 @@ Przykłady kodu można znaleźć tutaj: <a class="linkColor" href ="https://gith
     'cv_years' => 'lata',
     'cv_months' => 'miesiący',
     'cv_january' => 'Styczeń',
+    'cv_april' => 'Kwiecień',
+    'cv_december' => 'Grudzień',
     'cv_may' => 'Maj',
     'cv_september' => 'Wrzesień',
     'cv_october' => 'Październik',
